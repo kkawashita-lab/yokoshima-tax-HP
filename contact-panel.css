@@ -1,0 +1,16 @@
+.corporate-contact{position:relative;padding:80px 0;background:linear-gradient(#152332b3,#152332b3),url('assets/office-contact.jpg') center 52%/cover no-repeat;color:white}
+.corporate-contact h2{font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-weight:700;font-size:30px;line-height:1.7}
+.corporate-contact-intro{margin:23px auto 36px;font-size:14px;line-height:2}
+.corporate-contact-panels{display:grid;grid-template-columns:1fr 1fr;max-width:880px;margin:0 auto;text-align:center}
+.corporate-contact-form,.corporate-contact-tel{padding:42px 32px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.corporate-contact-form{background:linear-gradient(140deg,#0755bb,#064291)}
+.corporate-contact-panels h3{font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-size:23px;line-height:1.7;font-weight:700}
+.corporate-contact-form>a{display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:310px;width:100%;padding:16px 20px;background:white;color:var(--blue);font-size:15px;font-weight:700;margin-top:25px;transition:background .2s}
+.corporate-contact-form>a:hover{background:#e9f3fc}.corporate-contact-form>a span{font-size:27px;line-height:1}
+.corporate-contact-form p{font-size:11px;margin-top:15px;color:#e3edfa}
+.corporate-contact-tel{background:#f6f7f8;color:#202a31}
+.corporate-contact-tel>a{display:flex;align-items:center;justify-content:center;gap:10px;white-space:nowrap;font-size:31px;font-weight:700;line-height:1.4;letter-spacing:0;color:var(--blue);margin:18px 0 8px}
+.corporate-contact-tel svg{width:28px;height:28px;flex:none}
+.corporate-contact-tel p{font-size:12px;color:#626e77}.corporate-contact-tel small{font-size:11px;color:#626e77;line-height:1.8;margin-top:19px}
+@media(max-width:950px){.corporate-contact-form,.corporate-contact-tel{padding:35px 22px}.corporate-contact-panels h3{font-size:21px}.corporate-contact-tel>a{font-size:27px}.corporate-contact-form>a{font-size:13px}}
+@media(max-width:650px){.corporate-contact{padding:50px 0;background-position:65% center}.corporate-contact h2{font-size:24px}.corporate-contact-intro{font-size:14px;text-align:left;margin:22px 0 30px}.corporate-contact-panels{grid-template-columns:1fr}.corporate-contact-form,.corporate-contact-tel{padding:35px 22px}.corporate-contact-panels h3{font-size:22px}.corporate-contact-form>a{font-size:14px;padding:16px 18px;gap:15px}.corporate-contact-form p{font-size:12px}.corporate-contact-tel>a{font-size:30px}.corporate-contact-tel p{font-size:12px}}

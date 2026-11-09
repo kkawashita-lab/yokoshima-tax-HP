@@ -1,0 +1,41 @@
+
+.partners-intro{padding:72px 0 48px}
+.partners-copy{text-align:center}
+.partners-copy h2{font-size:30px;line-height:1.9;letter-spacing:.07em;margin-bottom:30px}
+.partners-prose{font-size:15px;line-height:2.2;color:#596f7f}
+.partners-prose p+p{margin-top:20px}
+.partners-inquiry{text-align:center;padding:65px 0 75px;background:#edf6fc}
+.partners-inquiry h2{font-size:27px;line-height:1.8}
+.partners-inquiry .wrap>p:not(.eyebrow){margin-top:24px;font-size:14px;line-height:2.2;color:#596f7f}
+.partners-cta{display:flex;max-width:430px;margin:32px auto 0;padding:19px 25px;justify-content:center;gap:13px;font-size:15px;min-height:65px}
+.partners-cta>svg{flex-shrink:0}
+.partners-cta>span{margin-left:auto}
+@media(max-width:650px){
+.partners-intro{padding:45px 0 32px}.partners-copy h2{font-size:23px;letter-spacing:.04em;margin-bottom:24px}.partners-prose{font-size:14px;line-height:2.1;text-align:left}.partners-prose p+p{margin-top:19px}
+.partners-inquiry{padding:45px 0 50px}.partners-inquiry h2{font-size:23px}.partners-inquiry .wrap>p:not(.eyebrow){text-align:left;font-size:14px}.partners-cta{padding:17px 15px;font-size:13px;gap:9px;max-width:100%;min-height:60px}
+}
+
+
+/* Shared page-heading layout with a partnership photograph. */
+.partners-page .corporate-hero{background:#edf6fc;min-height:300px}
+.partners-hero-photo{position:relative;min-width:0;align-self:stretch;overflow:hidden}
+.partners-hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+@media(max-width:650px){
+ .partners-page .corporate-hero{min-height:0}
+ .partners-page .corporate-hero-copy{width:100%;align-self:stretch;padding:32px 8%;text-align:left}
+ .partners-page .corporate-hero h1{font-size:24px;line-height:1.7;letter-spacing:.03em;text-align:left}
+ .partners-hero-photo{aspect-ratio:2/1}
+}
+
+
+/* Professional portraits, in supplied 01–12 order. */
+.partners-professions{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px 8px;list-style:none;padding:0;width:100%;max-width:960px;margin:34px auto 8px}
+.partners-professions li{min-width:0;margin:0;padding:0}
+.partners-professions figure{margin:0}
+.partners-portrait{aspect-ratio:1/.735;overflow:hidden}
+.partners-professions img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;clip-path:circle(45% at 50% 50%)}
+.partners-professions li:nth-child(9) img{clip-path:inset(0 0 29% 0)}
+.partners-professions figcaption{position:relative;background:#fff;text-align:center;color:#163e58;font-weight:700;font-size:15px;line-height:1.6;margin-top:7px;overflow-wrap:anywhere}
+@media(max-width:650px){.partners-professions figcaption{font-size:12px;line-height:1.5;margin-top:5px}}
+@media(max-width:800px){.partners-professions{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 6px;max-width:480px}}
+@media(max-width:420px){.partners-professions{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 4px;margin-top:26px}}

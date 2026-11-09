@@ -1,0 +1,54 @@
+.personal-page .corporate-hero{background:#edf6fc;min-height:300px}
+.personal-opening{padding:65px 0;text-align:center}
+.personal-opening h2{font-size:29px;line-height:1.8}
+.personal-opening .wrap>p:not(.eyebrow){margin-top:24px;font-size:14px;line-height:2.2;color:#5e7281}
+.personal-services{background:#f0f6fa;padding:70px 0 15px}
+.personal-service-group{margin-bottom:60px;scroll-margin-top:125px}
+.personal-group-heading{display:flex;align-items:center;gap:18px;margin-bottom:22px;border-bottom:1px solid #cddfea;padding-bottom:20px}
+.personal-group-heading>svg{width:44px;height:44px;flex-shrink:0;color:var(--blue)}
+.personal-group-heading h3{font-size:23px;color:var(--blue)}
+.personal-group-heading p{font-size:13px;color:#60788b;margin-top:3px}
+.personal-service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.personal-service-card{display:flex;align-items:flex-start;gap:15px;background:white;border:1px solid #e1e9f0;box-shadow:0 2px 7px #16374e08;border-radius:10px;padding:25px 21px;min-width:0}
+.personal-service-card>svg{width:34px;height:34px;flex:none;color:var(--blue);margin-top:2px}
+.personal-service-card h4{font-size:15px;line-height:1.8;margin:0 0 9px;font-weight:700;overflow-wrap:anywhere}
+.personal-service-card p{font-size:12px;line-height:2;color:#617584;margin:0}
+.personal-message{background:#f0f6fa}.personal-message .concern-answer{margin-top:0}
+.personal-fees{padding:75px 0}.personal-fee-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:65px}
+.personal-fee-grid>div>p:not(.eyebrow){font-size:14px;line-height:2.2;color:#607584}
+.personal-fee-grid ul{list-style:none;padding:0;margin:22px 0;font-size:13px}
+.personal-fee-grid li{padding:9px 0;border-bottom:1px solid #e0e9ef}
+.personal-fee-grid li:before{content:'✓';color:var(--blue);margin-right:10px}
+.personal-prepare{padding:60px 0;background:#f6f9fc}
+.personal-prepare-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.personal-prepare-grid article{padding:28px;background:white;border-left:3px solid #8ebce0}
+.personal-prepare-grid h3{font-size:17px;color:var(--blue);margin-bottom:10px}
+.personal-prepare-grid p{font-size:14px;line-height:2;color:#617584}
+#personal-flow{background:#e2f0fc;padding:70px 0}#personal-flow .section-heading{margin-bottom:40px}
+@media(max-width:1050px){.personal-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.personal-fee-grid{gap:35px}}
+@media(max-width:650px){
+.personal-page .corporate-hero{min-height:0}
+.personal-page .corporate-hero-copy{width:100%;align-self:stretch;padding:32px 8%;text-align:left}
+.personal-page .corporate-hero h1{font-size:24px;line-height:1.7;letter-spacing:.03em;text-align:left}
+.personal-opening{padding:45px 0}.personal-opening h2{font-size:23px}.personal-opening .wrap>p:not(.eyebrow){text-align:left;font-size:14px}
+.personal-services{padding:45px 0 8px}.personal-service-group{margin-bottom:38px;scroll-margin-top:85px}.personal-service-grid{grid-template-columns:1fr;gap:12px}.personal-group-heading{gap:12px}.personal-group-heading h3{font-size:21px}.personal-group-heading p{font-size:12px}.personal-group-heading>svg{width:36px;height:36px}
+.personal-service-card{padding:22px;gap:16px}.personal-service-card h4{font-size:16px}.personal-service-card p{font-size:13px}
+.personal-fees,.personal-prepare,#personal-flow{padding:48px 0}.personal-fee-grid,.personal-prepare-grid{grid-template-columns:1fr;gap:24px}.personal-fee-grid h2,.personal-prepare h2{font-size:23px}.personal-prepare-grid article{padding:23px}.personal-page .faq h2{font-size:23px}
+}
+
+
+/* Distinct document preparation cards. */
+.personal-prepare-grid{gap:24px;align-items:stretch}
+.personal-prepare-grid article{border:1px solid #dce7ef;border-radius:12px;padding:30px 32px;background:#fff;box-shadow:0 4px 16px #16374e08}
+.prepare-card-icon{width:42px;height:42px;color:var(--blue);margin-bottom:16px}
+.personal-prepare-grid h3{font-size:19px;margin-bottom:17px}
+.personal-prepare-grid ul{margin:0;padding:17px 0 0;list-style:none;border-top:1px solid #e1eaf1;color:#617584;font-size:14px;line-height:2}
+.personal-prepare-grid li{position:relative;padding-left:18px;margin:5px 0}
+.personal-prepare-grid li:before{content:'・';position:absolute;left:0;color:var(--blue)}
+@media(max-width:650px){.personal-prepare-grid article{padding:26px}.personal-prepare-grid h3{font-size:18px}.personal-prepare-grid{gap:18px}}
+
+
+/* Three-generation family photo, preserving a wide view on mobile. */
+.personal-hero-photo{position:relative;min-width:0;align-self:stretch;overflow:hidden}
+.personal-hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+@media(max-width:650px){.personal-hero-photo{aspect-ratio:2/1}.personal-hero-photo img{height:100%;object-fit:cover;object-position:center}}

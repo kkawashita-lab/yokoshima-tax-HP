@@ -1,0 +1,27 @@
+#flow{background:#e2f0fc;padding:75px 0 80px}
+#flow .section-heading{margin-bottom:42px}
+.corporate-flow-cards{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;padding:0;margin:0}
+.corporate-flow-cards>li{background:white;border-radius:34px;padding:27px 23px 32px;text-align:center}
+.flow-step-label{font-size:11px;font-weight:700;letter-spacing:.12em;line-height:1.4;color:#36434f}
+.flow-step-label strong{display:block;font-family:inherit;font-size:34px;line-height:1.35;color:var(--blue);letter-spacing:.02em;margin-top:4px}
+.corporate-flow-cards h3{font-size:17px;line-height:1.7;margin:16px -8px 13px;min-height:58px;display:flex;align-items:center;justify-content:center}
+.flow-icon{display:block;width:94px;height:94px;color:var(--blue);margin:0 auto 22px}
+.corporate-flow-cards p{font-size:13px;color:#536675;text-align:left;line-height:2;margin:0}
+@media(max-width:950px){.corporate-flow-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.corporate-flow-cards>li{padding:28px}.corporate-flow-cards h3{min-height:0}}
+@media(max-width:650px){#flow{padding:48px 0 52px}#flow .section-heading{margin-bottom:28px}.corporate-flow-cards{grid-template-columns:1fr;gap:20px;max-width:400px;margin:auto}.corporate-flow-cards>li{padding:26px 28px 30px;border-radius:30px}.flow-step-label strong{font-size:32px}.corporate-flow-cards h3{font-size:19px;margin:13px 0 15px}.flow-icon{width:90px;height:90px;margin-bottom:17px}.corporate-flow-cards p{font-size:14px}}
+
+.corporate-flow-cards .flow-contact-cta{display:flex;width:100%;min-width:0;min-height:42px;padding:11px 10px;margin-top:20px;gap:7px;font-size:12px;line-height:1.5;white-space:nowrap}
+.corporate-flow-cards .flow-contact-cta>span{margin-left:auto;font-size:18px}
+.corporate-flow-cards .flow-contact-cta svg{width:15px;height:15px;flex:none}
+@media(max-width:650px){.corporate-flow-cards .flow-contact-cta{max-width:260px;margin:22px auto 0;padding:13px 17px;font-size:14px;min-height:46px}}
+
+
+@media(max-width:650px){#flow h2{font-size:23px}}
+
+#flow.flow-standalone {
+  background: #fff;
+}
+
+.flow-standalone .corporate-flow-cards > li {
+  background: #edf6fc;
+}
