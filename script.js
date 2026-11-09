@@ -43,7 +43,6 @@ if(serviceDropdown){
  button.addEventListener('click',()=>{if(button.getAttribute('aria-expanded')==='false')setOpen(false);});
 }
 
-// Smoothly expand and collapse FAQs on the home and audience pages, retaining native details.
 document.querySelectorAll('.faq .questions details').forEach(details=>{
  const summary=details.querySelector('summary');
  if(!summary||typeof details.animate!=='function')return;

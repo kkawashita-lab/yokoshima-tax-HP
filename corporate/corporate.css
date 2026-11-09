@@ -7,7 +7,7 @@
 .corporate-hero h1 em{font-size:27px;font-style:normal}
 .corporate-hero-copy>p:not(.eyebrow){font-size:13px;line-height:2.1;color:#5b6e7b;margin-top:16px}
 .corporate-hero .outline{font-size:12px;max-width:260px;margin-top:25px}
-.corporate-hero-photo{background-image:url('../assets/corporate-hero.png');background-size:cover;background-position:80% center;background-repeat:no-repeat;min-height:100%;aspect-ratio:auto;align-self:stretch}
+.corporate-hero-photo{background-image:url('../assets/corporate-hero.webp');background-size:cover;background-position:80% center;background-repeat:no-repeat;min-height:100%;aspect-ratio:auto;align-self:stretch}
 .breadcrumbs{display:flex;align-items:center;gap:15px;font-size:10px;color:#7b8994;margin-top:22px}
 .breadcrumbs a:hover{color:var(--blue)}
 .corporate-intro{text-align:center;padding:75px 0 65px}
@@ -44,7 +44,6 @@
 .corporate-page .header-two-row nav a:first-child:hover{color:var(--blue)}
 
 
-/* Three connected steps, following the progress of a small company. */
 .corporate-stages{padding:70px 0 65px;background:#fff}
 .corporate-stages h2{font-size:28px;line-height:1.8}
 .corporate-stages .stages-lead{font-size:14px;color:#62717d;line-height:2.1;margin:22px 0 45px}
@@ -91,7 +90,6 @@
 @media(max-width:650px){.corporate-flow-cards .flow-contact-cta{max-width:260px;margin:22px auto 0;padding:13px 17px;font-size:14px;min-height:46px}}
 
 
-/* Concern cards and a blue answer band. */
 .corporate-concerns{padding:58px 0 0;background:#f0f6fa}
 .corporate-concerns .corporate-section-title{text-align:center;margin-bottom:35px}
 .concern-heading-em{color:var(--blue);text-emphasis:filled dot;text-emphasis-position:over;}

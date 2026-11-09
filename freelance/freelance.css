@@ -1,5 +1,5 @@
 
-.freelance-page .corporate-hero{background:#edf6fc}.freelance-page .corporate-hero-photo{background-image:url('../assets/service-photos.png');background-size:200% 300%;background-position:right top}
+.freelance-page .corporate-hero{background:#edf6fc}.freelance-page .corporate-hero-photo{background-image:url('../assets/service-photos.webp');background-size:200% 300%;background-position:right top}
 .freelance-opening{text-align:center;padding:65px 0}.freelance-opening h2{font-size:28px;line-height:1.9}.freelance-opening .wrap>p:last-of-type{font-size:14px;line-height:2.2;color:#627480;margin-top:22px}
 .freelance-index{display:flex;justify-content:center;margin:32px auto 0;max-width:820px;border-top:1px solid #dbe7ef;border-bottom:1px solid #dbe7ef}.freelance-index a{flex:1;padding:16px;font-size:13px;color:var(--blue);font-weight:600}.freelance-index a+a{border-left:1px solid #dbe7ef}.freelance-index span{margin-left:15px}.freelance-index a:hover{background:#eff6fc}
 .freelance-timing{background:#f0f6fa;padding:65px 0}.freelance-signals{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.freelance-signals article{border-top:2px solid #89b6dc;padding:25px 0}.freelance-signals article>span{font:30px Georgia,serif;color:#8fb8d9}.freelance-signals h3{font-size:21px;line-height:1.8;margin:15px 0;color:var(--blue)}.freelance-signals p{font-size:14px;color:#596f7f;line-height:2}
@@ -14,7 +14,6 @@
 @media(max-width:650px){.freelance-page .corporate-hero-copy{width:100%;align-self:stretch;padding:32px 8%;text-align:left}.freelance-page .corporate-hero h1{font-size:24px;line-height:1.7;letter-spacing:.03em;text-align:left}}
 
 
-/* Illustrated cards: a clear visual for each reason to ask for support. */
 .freelance-timing .corporate-section-title{text-align:center;margin-bottom:38px}
 .freelance-signals{gap:24px;align-items:stretch}
 .freelance-signals article{position:relative;min-width:0;border:1px solid #e3edf5;border-radius:12px;background:#fff;padding:26px 25px 30px;display:flex;flex-direction:column}
@@ -25,17 +24,14 @@
 @media(max-width:650px){.freelance-timing .corporate-section-title{text-align:left;margin-bottom:28px}.freelance-signals{grid-template-columns:1fr;gap:20px;max-width:440px;margin:auto}.freelance-signals article{padding:24px}.signal-illustration{max-width:300px;margin-bottom:18px}.freelance-signals h3{font-size:21px;margin:0 0 15px}.freelance-signals p{font-size:14px}}
 
 
-/* Reuse the corporate page answer band below the consultation cards. */
 #freelance-timing{padding-bottom:0}
 
 
-/* Remote-work portrait for the sole-proprietor page hero. */
 .freelance-page .freelance-remote-photo{position:relative;min-width:0;overflow:hidden;background-image:none;background-size:cover}
 .freelance-remote-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
 @media(max-width:650px){.freelance-page .freelance-remote-photo{aspect-ratio:2/1;min-height:0}}
 
 
-/* Match the personal page's content-height mobile hero: no blue space below the photo. */
 @media(max-width:650px){
  .freelance-page .corporate-hero{min-height:0}
 }

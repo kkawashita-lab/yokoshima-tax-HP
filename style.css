@@ -6,7 +6,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media(max-width:650px){.intro h2{font-size:21px;text-wrap:balance}}
 
-/* Landscape KV: large Mincho typography and laurel-framed office facts. */
 .hero-classic{height:650px;isolation:isolate;overflow:hidden;background:#bce0f5;color:#06449b}
 .hero-classic>.hero-city{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 62%;z-index:-3}
 .hero-wash{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(227,245,255,.85),rgba(225,244,255,.59) 57%,rgba(222,242,255,.04)),linear-gradient(180deg,rgba(205,238,255,.15),transparent 60%)}
@@ -27,20 +26,17 @@
 @media(max-width:950px){.hero-classic{height:600px}.hero-content{padding-top:40px}.hero-kicker{font-size:19px}.hero-classic h1{font-size:42px}.hero-subtitle{font-size:21px}.hero-strengths{gap:0;margin-top:25px}.hero-strengths li{width:210px;height:130px}.hero-strengths p{font-size:16px}.hero-strengths strong{font-size:22px}.hero-strengths li:first-child strong{font-size:30px}.hero-strengths strong span{font-size:17px}}
 @media(max-width:650px){.hero-classic{height:640px}.hero-classic>.hero-city{object-position:61% 65%}.hero-wash{background:linear-gradient(180deg,rgba(228,245,255,.83),rgba(228,245,255,.70) 45%,rgba(228,245,255,.08) 82%)}.hero-content{width:90%;padding-top:35px}.hero-kicker{font-size:13px;letter-spacing:.035em;padding-bottom:9px;margin-bottom:19px;white-space:nowrap}.hero-classic h1{width:auto;letter-spacing:.025em;line-height:1.65;font-size:clamp(23px,6.45vw,34px);text-wrap:nowrap}.hero-subtitle{font-size:15px;line-height:1.95;max-width:280px;margin-top:13px}.hero-strengths{gap:0;width:100%;margin-top:22px;justify-content:space-between}.hero-strengths li{width:33.33%;height:104px}.hero-strengths p{font-size:12px;line-height:1.7}.hero-strengths strong{font-size:14px;line-height:1.6}.hero-strengths li:first-child strong{font-size:21px;line-height:1.5}.hero-strengths strong span{display:block;font-size:12px;margin:0}.hero-strengths img{height:100%;width:100%}.hero-office{display:block;padding:15px 5%;min-height:135px}.hero-office>div{padding-left:13px}.hero-office strong{font-size:20px}.hero-office p{font-size:10px}.hero-office>a{margin-top:10px;padding:5px 0;border:0;justify-content:flex-end;font-size:12px;gap:20px}}
 
-/* Keep the compact logo entirely inside the header. */
 .header{height:84px}
 .header .brand{align-self:center;padding-top:0}
 .header .brand:after{content:none;display:none}
 @media(max-width:950px){.header{height:76px}.header nav{top:76px}}
 @media(max-width:650px){.header{height:70px}.header nav{top:70px}}
 
-/* Highlight only the header contact link. */
 .header nav a[href="#contact"]{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 20px;background:#f4ce3f;color:#182b3a;font-weight:700;border:1px solid transparent;border-radius:3px;transition:background-color .2s}
 .header nav a[href="#contact"]:hover{background:#e9bf28;color:#182b3a}
 @media(max-width:950px){.header nav a[href="#contact"]{margin-top:14px;padding:13px 20px;min-height:48px}}
 
 
-/* Deep blue identity and simple text-only office facts. */
 .header .brand,footer .brand{color:var(--blue)}
 .hero-strengths{gap:0;margin-top:28px;text-shadow:0 0 10px #fff,0 0 20px #fff}
 .hero-strengths li{width:240px;height:95px;padding:0 24px}
@@ -52,7 +48,6 @@
 @media(max-width:950px){.hero-strengths li{width:210px;padding:0 18px}}
 @media(max-width:650px){.hero-strengths{margin-top:26px}.hero-strengths li{width:33.33%;height:82px;padding:0 5px}.hero-strengths p{font-size:11px}.hero-strengths strong{font-size:14px}.hero-strengths li:first-child strong{font-size:23px}.hero-strengths strong span{font-size:11px}}
 
-/* Compact two-row header. */
 .header.header-two-row{display:block;height:auto;padding:0;background:#fff;border-bottom:1px solid #e6edf4}
 .header-top{width:min(1200px,88%);margin:auto;min-height:78px;display:flex;align-items:center;gap:35px}
 .header-two-row .brand{padding:0;font-size:25px;align-self:center;line-height:1.4;letter-spacing:.045em}
@@ -74,11 +69,9 @@
 @media(max-width:650px){.header-top{width:90%;min-height:68px;gap:15px}.header-two-row .brand{font-size:20px}.header-two-row .header-phone,.header-cta{display:none}.header-two-row .menu{display:flex;margin-left:auto}.header-two-row nav{display:none;position:absolute;top:68px;left:0;right:0;width:100%;padding:14px 5% 20px;background:white;border-top:1px solid #e6edf4;box-shadow:0 15px 25px #0f345018;grid-template-columns:1fr;font-size:14px}.header-two-row nav.open{display:grid}.header-two-row nav a{justify-content:flex-start;margin:0;padding:12px 0;border:0;border-bottom:1px solid #e6edf4}}
 
 
-/* Navigation label spacing. */
 .header-two-row nav a{margin:0;padding:9px 12px 17px}
 @media(max-width:650px){.header-two-row nav a{padding:14px 0 18px}}
 
-/* Alternating editorial service introductions. */
 .service-heading{margin-bottom:65px}
 .service-heading h2{font-size:32px;letter-spacing:.04em}
 .service-heading>p:last-child{font-size:14px;color:#66717a;margin-top:17px;line-height:2}
@@ -95,14 +88,13 @@
 .service-visual{position:relative;margin:17px 0;isolation:isolate}
 .service-visual:before{content:"";position:absolute;z-index:-1;right:-27px;top:-30px;width:74%;height:100%;background:#f0f3f5;border-radius:10px}
 .service-story:nth-child(even) .service-visual:before{right:auto;left:-27px;top:30px}
-.service-photo{width:100%;aspect-ratio:1.5;border-radius:8px;background-image:url('assets/service-photos.png');background-size:200% 300%;background-repeat:no-repeat;background-color:#edf3f7}
+.service-photo{width:100%;aspect-ratio:1.5;border-radius:8px;background-image:url('assets/service-photos.webp');background-size:200% 300%;background-repeat:no-repeat;background-color:#edf3f7}
 .photo-1{background-image:url('assets/service-tax-consultation.webp');background-size:cover;background-position:center}.photo-2{background-image:url('assets/service-accounting.webp');background-size:cover;background-position:center}.photo-3{background-image:url('assets/service-inheritance-consultation.webp');background-size:cover;background-position:center}.photo-4{background-image:url('assets/service-business-startup.webp');background-size:cover;background-position:center}.photo-5{background-position:0 100%}.photo-6{background-position:100% 100%}
 .services-editorial .fees{margin-top:65px}
 @media(max-width:950px){.service-story,.service-story:nth-child(even){gap:40px}.service-copy h4{font-size:20px}.story-number{font-size:58px}.service-visual:before{right:-18px;top:-22px}.service-story:nth-child(even) .service-visual:before{left:-18px;top:22px}}
 @media(max-width:650px){.service-heading{margin-bottom:35px}.service-heading h2{font-size:27px}.service-heading>p:last-child{font-size:13px}.service-stories{gap:48px}.service-story,.service-story:nth-child(even){grid-template-columns:1fr;gap:19px}.service-story:nth-child(even) .service-copy,.service-story:nth-child(even) .service-visual{order:initial}.story-number{font-size:58px;margin-bottom:8px}.service-copy h3{font-size:12px}.service-copy h4{font-size:22px;margin-bottom:13px}.service-copy>p{font-size:14px;max-width:none}.service-visual{margin:10px 12px 14px 0}.service-photo{border-radius:7px}.service-visual:before,.service-story:nth-child(even) .service-visual:before{left:auto;right:-14px;top:16px;width:76%;border-radius:7px}.services-editorial .fees{margin-top:45px}}
 
 
-/* Enlarge only the image within its fixed frame. */
 .service-photo-frame{overflow:hidden;border-radius:8px}
 .service-photo{transform:translate3d(0,0,0) scale(1);transform-origin:center;transition:transform .8s cubic-bezier(.22,.61,.36,1)!important;will-change:transform}
 .service-photo:is(.photo-5,.photo-6){transform:translate3d(0,0,0) scale(1.02)}
@@ -110,7 +102,6 @@
 @media(max-width:650px){.service-photo-frame{border-radius:7px}}
 
 
-/* Service names lead the text hierarchy. */
 .service-copy .story-number{font-size:52px;margin-bottom:14px}
 .service-copy h3{font-size:30px;line-height:1.5;font-weight:700;letter-spacing:.035em;margin:0 0 16px;text-wrap:balance}
 .service-copy h4{font-size:18px;line-height:1.8;font-weight:500;letter-spacing:.025em;margin-bottom:16px}
@@ -118,7 +109,6 @@
 @media(max-width:950px){.service-copy h3{font-size:26px}.service-copy h4{font-size:17px}}
 @media(max-width:650px){.service-copy .story-number{font-size:46px;margin-bottom:10px}.service-copy h3{font-size:26px;line-height:1.6;margin-bottom:12px}.service-copy h4{font-size:17px;line-height:1.8;margin-bottom:14px}.service-copy>p{font-size:14px}}
 
-/* Individually offset backdrops, with varied portrait and landscape proportions. */
 .service-story:nth-child(1){--shape-x:42%;--shape-y:-35%;--shape-w:68%;--shape-h:142%}
 .service-story:nth-child(2){--shape-x:-12%;--shape-y:-24%;--shape-w:66%;--shape-h:94%}
 .service-story:nth-child(3){--shape-x:-20%;--shape-y:35%;--shape-w:62%;--shape-h:80%}
@@ -137,7 +127,6 @@
 .services-editorial .service-story .service-visual:before{border-radius:13px}
 }
 
-/* Leave clear vertical gaps between the desktop backdrops of 03–05. */
 @media(min-width:651px){
 .service-story:nth-child(3){--shape-y:26%;--shape-h:80%}
 .service-story:nth-child(4){--shape-y:-12%;--shape-h:118%}
@@ -145,7 +134,6 @@
 }
 
 
-/* Four audience entries in the blue KV band. */
 .hero-office.hero-audiences{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:18px 6%;min-height:98px;gap:0;align-items:stretch}
 .hero-office.hero-audiences>a{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0;padding:13px 25px;border:0;border-left:1px solid #ffffff55;font-family:"Yu Gothic",Meiryo,sans-serif;font-size:17px;font-weight:600;letter-spacing:.045em;line-height:1.6;transition:background-color .2s}
 .hero-office.hero-audiences>a:last-child{border-right:1px solid #ffffff55}
@@ -155,7 +143,6 @@
 @media(max-width:950px){.hero-office.hero-audiences{padding:16px 5%;min-height:94px}.hero-office.hero-audiences>a{padding:12px 15px;font-size:14px}}
 @media(max-width:650px){.hero-office.hero-audiences{grid-template-columns:repeat(2,minmax(0,1fr));padding:8px 5%;min-height:135px}.hero-office.hero-audiences>a{padding:12px;font-size:13px;gap:8px}.hero-office.hero-audiences>a:nth-child(2){border-right:1px solid #ffffff55}.hero-office.hero-audiences>a:nth-child(-n+2){border-bottom:1px solid #ffffff30}.hero-audiences>a>span:last-child{font-size:17px}}
 
-/* White audience icons and simple right-facing chevrons. */
 .hero-office.hero-audiences>a{gap:12px}
 .audience-icon{width:32px;height:32px;flex:0 0 32px;display:block}
 .audience-label{flex:1;min-width:0}
@@ -165,7 +152,6 @@
 @media(max-width:650px){.audience-icon{width:24px;height:24px;flex-basis:24px}.hero-office.hero-audiences>a{gap:8px;padding:12px 8px;font-size:12px}.hero-audiences>a>span.audience-chevron{font-size:18px}}
 
 
-/* Center each icon-and-label group independently of its chevron. */
 .hero-office.hero-audiences>a{position:relative;justify-content:center;padding-left:32px;padding-right:32px}
 .audience-content{display:inline-flex;align-items:center;justify-content:center;gap:12px}
 .audience-label{flex:initial}
@@ -175,7 +161,6 @@
 @media(max-width:650px){.audience-content{gap:8px}.hero-office.hero-audiences>a{padding-left:22px;padding-right:22px}.hero-audiences>a>span.audience-chevron{right:8px;font-size:24px}}
 
 
-/* Keep the audience band at the bottom of the opening desktop viewport. */
 @media(min-width:651px){
 .hero-classic{height:auto;min-height:calc(100vh - var(--site-header-height,126px));min-height:calc(100svh - var(--site-header-height,126px));display:flex;flex-direction:column}
 .hero-classic .hero-content{flex:1 0 auto;margin:0 auto;padding-top:45px;padding-bottom:45px;display:flex;flex-direction:column;justify-content:center}
@@ -184,14 +169,12 @@
 }
 
 
-/* Photo attribution stays readable in the footer without occupying KV space. */
 .footer-photo-credit{width:100%;margin:32px 0 0;padding-top:18px;border-top:1px solid #e6edf2;color:#69747d;font-size:11px;line-height:1.9;overflow-wrap:anywhere}
 .footer-photo-credit a{text-decoration:underline;text-underline-offset:3px}.footer-photo-credit span{padding:0 6px}
 .footer-photo-credit+.copyright{margin-top:15px}
 @media(max-width:650px){.footer-photo-credit{margin-top:25px;padding-top:16px;font-size:10px;line-height:2}.footer-photo-credit span{padding:0 3px}.footer-photo-credit+.copyright{margin-top:12px}}
 
 
-/* Mobile opening view: reserve space for the fixed contact bar and equalize all four audience cells. */
 @media(max-width:650px){
 .hero-classic{height:auto;min-height:calc(100vh - var(--site-header-height,69px) - var(--mobile-contact-height,55px));min-height:calc(100svh - var(--site-header-height,69px) - var(--mobile-contact-height,55px));display:flex;flex-direction:column}
 .hero-classic .hero-content{flex:1 0 auto;padding:30px 0;display:flex;flex-direction:column;justify-content:center;margin:0 auto}
@@ -203,13 +186,11 @@
 }
 
 
-/* Home links return to the document origin without a partial anchor offset. */
 html:has(header#top:target){scroll-behavior:auto}
 
 #services .fee-row strong{font-family:inherit}
 
 
-/* Fit the complete desktop opening view into the actual browser height. */
 .hero-copy{display:contents}
 @media(min-width:651px){
 .hero-classic{height:calc(100vh - var(--site-header-height,126px));height:calc(100svh - var(--site-header-height,126px));min-height:0}
@@ -221,7 +202,6 @@ html:has(header#top:target){scroll-behavior:auto}
 }
 
 
-/* Audience links below the home service navigation item. */
 .header-two-row #navigation>.nav-service-dropdown{position:relative;min-width:0;border-left:1px solid #e0e8f0}
 .header-two-row #navigation .nav-service-trigger{height:100%;border:0;color:var(--ink)}
 .nav-service-caret{width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin-top:-4px;transition:transform .2s}
@@ -246,7 +226,6 @@ html:has(header#top:target){scroll-behavior:auto}
 @media(max-width:650px){.header-two-row #navigation button.nav-service-trigger{justify-content:space-between;padding:14px 0 18px}}
 
 
-/* Mobile navigation grows with its submenu instead of using desktop heights. */
 @media(max-width:650px){
 .header-two-row #navigation{grid-auto-rows:max-content;align-content:start;max-height:calc(100vh - 125px);max-height:calc(100dvh - 125px);overflow-y:auto;overscroll-behavior:contain}
 .header-two-row #navigation>.nav-service-dropdown{display:block;height:auto;min-height:0;align-self:start}
@@ -256,7 +235,6 @@ html:has(header#top:target){scroll-behavior:auto}
 }
 
 
-/* Mobile: give the image the opening view and reveal audience links on scroll. */
 @media(max-width:650px){
 .hero-classic{min-height:0}
 .hero-classic .hero-content{flex:none;min-height:calc(100vh - var(--site-header-height,69px) - var(--mobile-contact-height,55px));min-height:calc(100svh - var(--site-header-height,69px) - var(--mobile-contact-height,55px))}
@@ -266,17 +244,14 @@ html:has(header#top:target){scroll-behavior:auto}
 }
 
 
-/* White veil behind mobile hero text, fading to the unobscured city view. */
 @media(max-width:650px){
 .hero-classic>.hero-wash{background:linear-gradient(180deg,rgba(255,255,255,.30) 0%,rgba(255,255,255,.60) 25%,rgba(255,255,255,.78) 42%,rgba(255,255,255,.80) 62%,rgba(255,255,255,.70) 77%,rgba(255,255,255,.24) 90%,rgba(255,255,255,0) 100%)}
 }
 
 
-/* Preserve the supplied greeting photograph proportions on all screens. */
 #about .portrait img{aspect-ratio:1672/941;height:auto;object-fit:contain}
 
 
-/* Give the greeting portrait a substantial share of the layout. */
 #about .intro-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:center}
 #about .portrait{width:100%;max-width:none;margin:0}
 @media(min-width:651px) and (max-width:950px){
@@ -296,14 +271,12 @@ html:has(header#top:target){scroll-behavior:auto}
 
 
 
-/* Enlarge the greeting photograph on desktop without changing the mobile layout. */
 @media(min-width:651px){
  #about .intro-grid{width:min(1120px,84%);grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:40px}
 }
 @media(min-width:651px) and (max-width:950px){#about .intro-grid{width:88%;gap:30px}}
 
 
-/* Equal visual bounds and symmetric centering for all four audience icons. */
 .hero-audiences .audience-content{align-items:center;justify-content:center}
 .hero-audiences .audience-icon{width:32px;height:32px;flex:0 0 32px;overflow:visible}
 .hero-audiences .audience-icon *,.nav-service-submenu .audience-icon *{vector-effect:non-scaling-stroke}

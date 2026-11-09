@@ -16,7 +16,6 @@
 }
 
 
-/* Shared page-heading layout with a partnership photograph. */
 .partners-page .corporate-hero{background:#edf6fc;min-height:300px}
 .partners-hero-photo{position:relative;min-width:0;align-self:stretch;overflow:hidden}
 .partners-hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
@@ -28,7 +27,6 @@
 }
 
 
-/* Professional portraits, in supplied 01–12 order. */
 .partners-professions{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px 8px;list-style:none;padding:0;width:100%;max-width:960px;margin:34px auto 8px}
 .partners-professions li{min-width:0;margin:0;padding:0}
 .partners-professions figure{margin:0}

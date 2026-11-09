@@ -37,7 +37,6 @@
 }
 
 
-/* Distinct document preparation cards. */
 .personal-prepare-grid{gap:24px;align-items:stretch}
 .personal-prepare-grid article{border:1px solid #dce7ef;border-radius:12px;padding:30px 32px;background:#fff;box-shadow:0 4px 16px #16374e08}
 .prepare-card-icon{width:42px;height:42px;color:var(--blue);margin-bottom:16px}
@@ -48,7 +47,6 @@
 @media(max-width:650px){.personal-prepare-grid article{padding:26px}.personal-prepare-grid h3{font-size:18px}.personal-prepare-grid{gap:18px}}
 
 
-/* Three-generation family photo, preserving a wide view on mobile. */
 .personal-hero-photo{position:relative;min-width:0;align-self:stretch;overflow:hidden}
 .personal-hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 45%}
 @media(max-width:650px){.personal-hero-photo{aspect-ratio:2/1}.personal-hero-photo img{height:100%;object-fit:cover;object-position:center}}
