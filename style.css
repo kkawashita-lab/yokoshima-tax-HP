@@ -286,3 +286,5 @@ html:has(header#top:target){scroll-behavior:auto}
  .hero-audiences .audience-icon{width:26px;height:26px;flex-basis:26px}
 }
 @media(max-width:360px){.hero-audiences .audience-icon{width:24px;height:24px;flex-basis:24px}}
+
+@media(max-width:650px){.header.header-two-row{position:sticky;top:0;z-index:40}}
