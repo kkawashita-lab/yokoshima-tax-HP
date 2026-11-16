@@ -93,7 +93,8 @@
 .corporate-concerns{padding:58px 0 0;background:#f0f6fa}
 .corporate-concerns .corporate-section-title{text-align:center;margin-bottom:35px}
 .concern-heading-em{color:var(--blue);text-emphasis:filled dot;text-emphasis-position:over;}
-.corporate-concerns .concern-links{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;border:0;background:none}
+.corporate-concerns .concern-links{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;border:0;background:none}
+@media(max-width:1200px){.corporate-concerns .concern-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .corporate-concerns .concern-links>a{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:24px 18px 20px;background:white;border:0!important;border-radius:6px;text-align:center;line-height:1.9;transition:transform .2s,box-shadow .2s}
 .corporate-concerns .concern-links>a:hover{transform:translateY(-4px);box-shadow:0 8px 24px #23507812}
 .concern-mark{width:37px;height:37px;color:#98a3aa;margin:0 auto 15px;flex:none}
