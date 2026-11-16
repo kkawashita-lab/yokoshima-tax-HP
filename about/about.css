@@ -15,6 +15,3 @@
 @media(max-width:420px){
   .history-list li{grid-template-columns:1fr;gap:4px}
 }
-
-.office-exterior{margin:clamp(24px,4vw,44px) 0 0}
-.office-exterior img{display:block;width:100%;height:auto;border-radius:4px}
