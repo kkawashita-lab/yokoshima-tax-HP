@@ -539,9 +539,13 @@
 }
 
 @media (max-width: 650px) {
-  .inheritance-page main,
-  .inheritance-page footer {
+  .inheritance-page main .wrap,
+  .inheritance-page footer .wrap {
     padding-right: calc(32px + env(safe-area-inset-right));
+  }
+
+  .inheritance-page main .wrap .wrap {
+    padding-right: 0;
   }
 
   .inheritance-floating-cta {
