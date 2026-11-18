@@ -251,8 +251,10 @@ html:has(header#top:target){scroll-behavior:auto}
 
 
 #about .intro-bg{inset:0}
-#about .intro-grid{display:block}
-#about .intro-copy{max-width:720px;margin-inline:auto}
+#about .intro-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:clamp(40px,6vw,80px);align-items:center}
+#about .intro-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:72% center}
+@media(max-width:950px){#about .intro-grid{grid-template-columns:minmax(0,1fr) minmax(0,.7fr);gap:35px}}
+@media(max-width:650px){#about .intro-grid{display:flex}#about .intro-photo img{aspect-ratio:3/2;object-position:center}}
 #about .intro-signature{text-align:right;font-size:clamp(16px,2vw,18px)}
 #about .intro-signature strong{font-size:1.2em;font-weight:600}
 
