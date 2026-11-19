@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
 
-const MAIL_TO = 'k.kawashita@data-x.jp';
-const MAIL_FROM = 'noreply@yokoshima-cpta.com';
+const MAIL_TO = 'yokoshima-cpta@nifty.com';
+const MAIL_FROM = 'info@yokoshima-cpta.com';
 const OFFICE_NAME = 'よこしま税理士事務所';
 const RATE_LIMIT_SECONDS = 60;
 const AUDIENCES = ['法人', '個人事業主', '個人', '士業の方'];
