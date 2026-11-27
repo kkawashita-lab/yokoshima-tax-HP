@@ -1,4 +1,4 @@
-.corporate-contact{position:relative;padding:80px 0;background:linear-gradient(#152332b3,#152332b3),url('assets/office-contact.jpg') center 52%/cover no-repeat;color:white}
+.corporate-contact{position:relative;padding:80px 0;background:linear-gradient(#152332b3,#152332b3),url('assets/office-contact.webp') center 52%/cover no-repeat;color:white}
 .corporate-contact h2{font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-weight:700;font-size:30px;line-height:1.7}
 .corporate-contact-intro{margin:23px auto 36px;font-size:14px;line-height:2}
 .corporate-contact-panels{display:grid;grid-template-columns:1fr 1fr;max-width:880px;margin:0 auto;text-align:center}
