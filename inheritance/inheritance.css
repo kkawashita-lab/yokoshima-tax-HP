@@ -565,3 +565,5 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+.inheritance-supervision{margin:-4px 0 22px;font-size:12px;color:#66717a;letter-spacing:.04em}.inheritance-supervision a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.inheritance-supervision .nowrap{white-space:nowrap}
