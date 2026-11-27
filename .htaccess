@@ -1,3 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.yokoshima-cpta\.com$ [NC]
+RewriteRule ^(.*)$ https://yokoshima-cpta.com/$1 [R=301,L]
+RewriteCond %{HTTP:X-Sakura-Forwarded-For} ^$
+RewriteRule ^(.*)$ https://yokoshima-cpta.com/$1 [R=301,L]
+
 Redirect 301 /faq.html https://yokoshima-cpta.com/faq/
 Redirect 301 /flow.html https://yokoshima-cpta.com/flow/
 Redirect 301 /office.html https://yokoshima-cpta.com/about/

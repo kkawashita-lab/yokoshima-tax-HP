@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yokoshima-cpta.com/sitemap.xml
